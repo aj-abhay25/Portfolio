@@ -1,4 +1,4 @@
-/*===== MENU SHOW =====*/
+/*MENU SHOW*/
 const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
       nav = document.getElementById(navId);
@@ -11,7 +11,7 @@ const showMenu = (toggleId, navId) => {
   };
   showMenu("nav-toggle", "nav-menu");
   
-  /*===== ACTIVE AND REMOVE MENU =====*/
+  /*ACTIVE AND REMOVE MENU*/
   const navLinks = document.querySelectorAll(".nav-link");
   const sections = document.querySelectorAll(".section");
   
@@ -32,19 +32,10 @@ const showMenu = (toggleId, navId) => {
       }
     })
   })
-  
-  // function linkAction() {
-  //   /*Active link*/
-  //   navLinks.forEach((n) => n.classList.remove("active"));
-  //   this.classList.add("active");
-  
-  //   /*Remove menu mobile*/
   const navMenu = document.getElementById("nav-menu");
-  //   navMenu.classList.remove("show");
-  // }
   navLinks.forEach((n) => n.addEventListener("click", () => { navMenu.classList.remove("show") }));
   
-  /*===== COPY Email =====*/
+  /*COPY Email*/
   const copy = document.getElementById("copy");
   copy.addEventListener("click", () => {
     navigator.clipboard.writeText("kasulaarunteja@gmail.com");
@@ -54,7 +45,7 @@ const showMenu = (toggleId, navId) => {
     }, 1000);
   });
   
-  /*===== SCROLL REVEAL ANIMATION =====*/
+  /*SCROLL REVEAL ANIMATION*/
   const sr = ScrollReveal({
     origin: "top",
     distance: "80px",
@@ -96,7 +87,6 @@ const showMenu = (toggleId, navId) => {
     var speed = 200;
   
     typewriter = () => {
-      // for(let i = 0; i < messageArr.length; i++) {
       document.querySelector("#jobTitle").innerHTML = messageArr[0].substring(0, textPosition)  ;
       if(textPosition ++  != messageArr[0].length)
           setTimeout(typewriter, speed)
