@@ -405,24 +405,28 @@ img.man-icons {
   z-index: var(--z-back);
 }
 .skills-html {
-  width: 75%;
-}
-.skills-css {
-  width: 70%;
-}
-.skills-js {
-  width: 85%;
-}
-.skills-react,
-.skills-mongo {
-  width: 80%;
-}
-.skills-redux {
   width: 90%;
 }
-.skills-mui,
-.skills-sql {
-  width: 65%;
+.skills-css {
+  width: 80%;
+}
+.skills-js {
+  width: 55%;
+}
+.skills-sql{
+  width: 60%;
+}
+.skills-git {
+  width: 80%;
+}
+.skills-dsa {
+  width: 45%;
+}
+.skills-cpp{
+  width: 85%;
+}
+.skills-python {
+  width: 55%;
 }
 .skills-ts {
   width: 70%;
