@@ -1,19 +1,17 @@
-/*===== GOOGLE FONTS =====*/
+/*GOOGLE FONTS*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-/*===== VARIABLES CSS =====*/
+
 :root {
   --header-height: 3rem;
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
 :root {
   --first-color: #4070f4;
   --second-color: #0e2431;
   --third-color: #ffffff;
 }
 
-/*===== Fuente y tipografia =====*/
 :root {
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -28,7 +26,6 @@
   }
 }
 
-/*===== Margenes =====*/
 :root {
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -38,7 +35,6 @@
   --mb-6: 3rem;
 }
 
-/*===== z index =====*/
 :root {
   --z-back: -10;
   --z-normal: 1;
@@ -46,7 +42,7 @@
   --z-fixed: 100;
 }
 
-/*===== BASE =====*/
+/* BASE */
 *,
 ::before,
 ::after {
@@ -99,7 +95,7 @@ img {
 
 
 
-/*===== CLASS CSS ===== */
+/*CLASS CSS */
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
@@ -124,7 +120,7 @@ img {
   padding-bottom: 2rem;
 }
 
-/*===== LAYOUT =====*/
+/*LAYOUT*/
 .bd-grid {
   max-width: 1024px;
   display: grid;
@@ -427,13 +423,6 @@ img.man-icons {
 }
 .skills-python {
   width: 55%;
-}
-.skills-ts {
-  width: 70%;
-}
-.skills-express,
-.skills-node {
-  width: 85%;
 }
 .skills-img {
   border-radius: 0.5rem;
